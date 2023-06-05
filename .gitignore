@@ -1,0 +1,68 @@
+# File binary hasil kompilasi Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# File object hasil kompilasi Go
+*.o
+*.a
+*.obj
+
+# Direktori build dan output
+/build/
+/bin/
+/pkg/
+
+# Direktori vendor
+/vendor/
+
+# File konfigurasi spesifik pengembangan lokal
+/.env
+/.env.local
+/.env.*.local
+
+# File log dan output
+*.log
+log/
+
+# File IDE dan editor
+.idea/
+.vscode/
+
+# File konfigurasi sistem operasi
+*.swp
+.DS_Store
+Thumbs.db
+
+# File cache
+*.cache
+
+# File konfigurasi proyek spesifik
+*.config
+
+# File sistem operasi berkas
+.fuse_hidden*
+.icon
+
+# File yang dihasilkan oleh alat pengembangan
+.coverprofile
+.credstash
+.gocryptfs
+.gofuzz
+.gomod
+.gotoken
+.pb.go
+.pb.gw.go
+.pb.validate.go
+.pb.gw.validate.go
+.pprof
+.protocol
+.ptypes.go
+.swagger.json
+.swagger.yaml
+.swagger.yml
+.xsd
+
+.txt
